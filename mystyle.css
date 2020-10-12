@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: rgb(0, 0, 0);
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+}
+
+a{
+    list-style: none;
+    text-emphasis: none;
+    list-style: none;
+}
+@font-face {
+
+    font-family: "Morganite";
+    src: url("/Fonts/Morganite/Morganite-SemiBold.woff");
+}
+
+@font-face {
+
+    font-family: "Morganite_Book";
+    src: url("/Fonts/Morganite/Morganite-Book.woff");
+}
+
+@font-face {
+
+    font-family: "faktum_M";
+    src: url("/Fonts/Faktum/Faktum-Medium.woff");
+}
+
+@font-face {
+
+    font-family: "faktum";
+    src: url("/Fonts/Faktum/Faktum-Regular.woff");
+}
+
+@font-face {
+    font-family: 'laicaa_bold';
+    src: url('../Fonts/Laica/laicaa-bold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'laicaa_bold_italic';
+    src: url('../Fonts/Laica/laicaa-bolditalic-webfont.woff2') format('woff2'),
+         url('../Fonts/Laica/laicaa-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'laicaa_italic';
+    src: url('../Fonts/Laica/laicaa-italic.woff-webfont.woff2') format('woff2'),
+         url('../Fonts/Laica/laicaa-italic.woff-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'laicaa_medium';
+    src: url('../Fonts/Laica/laicaa-medium-webfont.woff2') format('woff2'),
+         url('../Fonts/Laica/laicaa-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'laicaa_medium_italic';
+    src: url('../Fonts/Laica/laicaa-mediumitalic-webfont.woff2') format('woff2'),
+         url('../Fonts/Laica/laicaa-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'laicaa_regular';
+    src: url('../Fonts/Laica/laicaa-regular.woff-webfont.woff2') format('woff2'),
+         url('../Fonts/Laica/laicaa-regular.woff-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'laicab_bold';
+    src: url('../Fonts/Laica/laicab-bold-webfont.woff2') format('woff2'),
+         url('../Fonts/Laica/laicab-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'laicab_bold_italic';
+    src: url('../Fonts/Laica/laicab-bolditalic-webfont.woff2') format('woff2'),
+         url('../Fonts/Laica/laicab-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'laicab_regular_italic';
+    src: url('../Fonts/Laica/laicab-italic.woff-webfont.woff2') format('woff2'),
+         url('../Fonts/Laica/laicab-italic.woff-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'laicab_medium';
+    src: url('../Fonts/Laica/laicab-medium.woff-webfont.woff2') format('woff2'),
+         url('../Fonts/Laica/laicab-medium.woff-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'laicab_medium_italic';
+    src: url('../Fonts/Laica/laicab-mediumitalic-webfont.woff2') format('woff2'),
+         url('../Fonts/Laica/laicab-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'laicab_regular';
+    src: url('../Fonts/Laica/laicab-regular-webfont.woff2') format('woff2'),
+         url('../Fonts/Laica/laicab-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    width: 100%;
+    place-items: stretch;
+}
+
+header {
+    
+    color: #dbdbdb;
+    font-family: "faktum";
+    padding: 1em 0;
+    margin: 0 2em;
+    border-bottom: 2px white solid;
+}
+
+header a {
+    color: #dbdbdb;
+}
+
+header i {
+    padding: 0em;
+    scale: 100%;
+    background: none;
+}
+
+header ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+header ul>p {
+    font-size: 0.72em;
+}
+
+
+
+.logo {
+    font-size: 2em;
+    font-family: "faktum_M";
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding: 0;
+}
+
+
+.sub_menu {
+    display: none;
+    font-size: 1em;
+    list-style: none;
+    flex-flow: column wrap;
+    text-transform: uppercase;
+    place-items: start;
+    line-height: 2em;
+    margin-top: 1em;
+}
+
+.mostra {
+    display: flex;
+    color: rebeccapurple;
+}
+
+main {
+
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+main h1 {
+
+    font-family: "Morganite";
+    font-size: 30vw;
+    text-transform: uppercase;
+    color: #ECECEC;
+    font-weight: normal;
+
+}
+
+.text {
+    display: flex;
+    gap: 3em;
+    font-family: "faktum";
+    color: #ECECEC;
+    align-items: flex-start;
+    margin-top: 1em;
+    margin-right: 5em;
+    flex-flow: row wrap;
+}
+.btn_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+}
+
+.btn_wrapper a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.p1 .btn, .btn2 {
+    color: #ECECEC;
+    box-sizing: content-box;
+    margin-top: 0.5em;
+    font-size: 3em;
+    border-radius: 28px;
+    font-family: "morganite_book";
+    word-spacing: 0.15em;
+    cursor: pointer;
+    border: 2px white solid;
+}
+
+.p1 {
+
+    font-weight: bolder;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    width: 75%;
+    flex: 2;
+}
+
+.p2 {
+    border-top: 1.4px solid rgb(255, 255, 255);
+    width: 50%;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    font-weight: normal;
+    margin-right: 4em;
+    flex: 3;
+}
+
+.p2 p {
+    margin-top: 1em;
+}
+
+p+p {
+
+    text-indent: 1em;
+}
+.cit{
+    font-family: "laicaa_italic" ;
+    line-height: 1.35em;
+    font-size: 1em;
+    text-indent: 0;
+}
+.fonte{
+    font-family: "laicaa_regular";
+    font-size: 80%;
+    text-decoration: underline;
+    text-transform: none;
+    font-style: normal;
+    margin-top: 0.2em !important;
+    font-variant-ligatures: common-ligatures contextual;
+    text-indent: 0 !important;
+}
+
+.rules {
+    display: flex;
+   
+    color: white;
+    border-top: 1px white solid;
+    margin-top: 1em;
+    font-size: 10vw;
+    font-weight: normal;
+    gap: 1em;
+    padding-left: 0 !important ;
+}
+
+.rules ul {
+padding-left: 0;
+}
+.rules ul a{
+    text-decoration: none !important ;
+    list-style: none !important ;
+    padding: 0;
+    color: #dddddd;
+
+}
+
+.rules h2 {
+    color: #dddddd;
+    border-bottom: 1px white solid;
+    margin-top: 0.2em;
+    font-family: "Morganite_Book";
+}
+.rules i{
+font-size: 0.3em;
+box-sizing: content-box;
+padding: 0.3em;
+}
+#rules_title {
+    color: white;
+    font-family: "Morganite";
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    border: hidden;
+}
+
+footer {
+    padding: 1rem;
+    color: wheat;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .logo {
+        font-size: 1.4em;
+
+    }
+
+    header{
+        width: 90%;
+        margin: 0 2em;
+    }
+    .text {
+        display: flex;
+        width: 100%;
+        gap: 1.5em;
+        flex-flow: column wrap;
+    }
+
+    .p1 {
+        flex: 1;
+        font-weight: bolder;
+        font-size: 1.6em;
+        line-height: 1.4em;
+        width: 100%;
+    }
+
+    .btn_wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 1em;
+        grid-template-rows: 1fr;
+
+    }
+
+    .p1 .btn, .btn2 {
+        word-spacing: 0em;
+        padding: 0.1em;
+    }
+
+    .p2 {
+        margin-right: 0em;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 500px){
+
+    .rules{
+        flex-flow: column wrap;
+        gap: 0;
+    }
+    .rules h2{
+        margin-top: 0.4em;
+    }
+    .p1 .btn, .btn2 {
+        word-spacing: 0em;
+        padding: 0.1em;
+        font-size: 3em;
+        margin:0;
+    }
+    .btn_wrapper {
+        display: flex;
+        width: 100%;
+        margin-bottom: 2em;
+        grid-template-rows: 1fr;
+        margin-top: 2em;
+        gap: 1em;
+
+    }
+    header{
+        width: 85%;
+    }
+    main h1{
+        margin-top: 0.3em;
+    }
+    .sub_menu{
+        line-height: 2.4em;
+    }
+}
