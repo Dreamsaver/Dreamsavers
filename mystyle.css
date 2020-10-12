@@ -39,7 +39,7 @@ a{
 
 @font-face {
     font-family: 'laicaa_bold';
-    src: url('../Fonts/Laica/laicaa-bold-webfont.woff2') format('woff2');
+    src: url('/Fonts/Laica/laicaa-bold-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 
@@ -50,8 +50,8 @@ a{
 
 @font-face {
     font-family: 'laicaa_bold_italic';
-    src: url('../Fonts/Laica/laicaa-bolditalic-webfont.woff2') format('woff2'),
-         url('../Fonts/Laica/laicaa-bolditalic-webfont.woff') format('woff');
+    src: url('/Fonts/Laica/laicaa-bolditalic-webfont.woff2') format('woff2'),
+         url('/Fonts/Laica/laicaa-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -62,8 +62,8 @@ a{
 
 @font-face {
     font-family: 'laicaa_italic';
-    src: url('../Fonts/Laica/laicaa-italic.woff-webfont.woff2') format('woff2'),
-         url('../Fonts/Laica/laicaa-italic.woff-webfont.woff') format('woff');
+    src: url('/Fonts/Laica/laicaa-italic.woff-webfont.woff2') format('woff2'),
+         url('/Fonts/Laica/laicaa-italic.woff-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -74,8 +74,8 @@ a{
 
 @font-face {
     font-family: 'laicaa_medium';
-    src: url('../Fonts/Laica/laicaa-medium-webfont.woff2') format('woff2'),
-         url('../Fonts/Laica/laicaa-medium-webfont.woff') format('woff');
+    src: url('/Fonts/Laica/laicaa-medium-webfont.woff2') format('woff2'),
+         url('/Fonts/Laica/laicaa-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -86,8 +86,8 @@ a{
 
 @font-face {
     font-family: 'laicaa_medium_italic';
-    src: url('../Fonts/Laica/laicaa-mediumitalic-webfont.woff2') format('woff2'),
-         url('../Fonts/Laica/laicaa-mediumitalic-webfont.woff') format('woff');
+    src: url('/Fonts/Laica/laicaa-mediumitalic-webfont.woff2') format('woff2'),
+         url('/Fonts/Laica/laicaa-mediumitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -98,8 +98,8 @@ a{
 
 @font-face {
     font-family: 'laicaa_regular';
-    src: url('../Fonts/Laica/laicaa-regular.woff-webfont.woff2') format('woff2'),
-         url('../Fonts/Laica/laicaa-regular.woff-webfont.woff') format('woff');
+    src: url('/Fonts/Laica/laicaa-regular.woff-webfont.woff2') format('woff2'),
+         url('/Fonts/Laica/laicaa-regular.woff-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -110,8 +110,8 @@ a{
 
 @font-face {
     font-family: 'laicab_bold';
-    src: url('../Fonts/Laica/laicab-bold-webfont.woff2') format('woff2'),
-         url('../Fonts/Laica/laicab-bold-webfont.woff') format('woff');
+    src: url('/Fonts/Laica/laicab-bold-webfont.woff2') format('woff2'),
+         url('/Fonts/Laica/laicab-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -122,8 +122,8 @@ a{
 
 @font-face {
     font-family: 'laicab_bold_italic';
-    src: url('../Fonts/Laica/laicab-bolditalic-webfont.woff2') format('woff2'),
-         url('../Fonts/Laica/laicab-bolditalic-webfont.woff') format('woff');
+    src: url('/Fonts/Laica/laicab-bolditalic-webfont.woff2') format('woff2'),
+         url('/Fonts/Laica/laicab-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -134,8 +134,8 @@ a{
 
 @font-face {
     font-family: 'laicab_regular_italic';
-    src: url('../Fonts/Laica/laicab-italic.woff-webfont.woff2') format('woff2'),
-         url('../Fonts/Laica/laicab-italic.woff-webfont.woff') format('woff');
+    src: url('/Fonts/Laica/laicab-italic.woff-webfont.woff2') format('woff2'),
+         url('/Fonts/Laica/laicab-italic.woff-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -146,8 +146,8 @@ a{
 
 @font-face {
     font-family: 'laicab_medium';
-    src: url('../Fonts/Laica/laicab-medium.woff-webfont.woff2') format('woff2'),
-         url('../Fonts/Laica/laicab-medium.woff-webfont.woff') format('woff');
+    src: url('/Fonts/Laica/laicab-medium.woff-webfont.woff2') format('woff2'),
+         url('/Fonts/Laica/laicab-medium.woff-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -158,8 +158,8 @@ a{
 
 @font-face {
     font-family: 'laicab_medium_italic';
-    src: url('../Fonts/Laica/laicab-mediumitalic-webfont.woff2') format('woff2'),
-         url('../Fonts/Laica/laicab-mediumitalic-webfont.woff') format('woff');
+    src: url('/Fonts/Laica/laicab-mediumitalic-webfont.woff2') format('woff2'),
+         url('/Fonts/Laica/laicab-mediumitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -170,8 +170,8 @@ a{
 
 @font-face {
     font-family: 'laicab_regular';
-    src: url('../Fonts/Laica/laicab-regular-webfont.woff2') format('woff2'),
-         url('../Fonts/Laica/laicab-regular-webfont.woff') format('woff');
+    src: url('/Fonts/Laica/laicab-regular-webfont.woff2') format('woff2'),
+         url('/Fonts/Laica/laicab-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
