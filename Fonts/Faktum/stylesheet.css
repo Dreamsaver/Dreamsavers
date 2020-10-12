@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-LightItalic.woff2') format('woff2'),
+        url('Faktum-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-MediumItalic.woff2') format('woff2'),
+        url('Faktum-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-Medium.woff2') format('woff2'),
+        url('Faktum-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-SemiBold.woff2') format('woff2'),
+        url('Faktum-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-ThinItalic.woff2') format('woff2'),
+        url('Faktum-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-ExtraBold.woff2') format('woff2'),
+        url('Faktum-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-Light.woff2') format('woff2'),
+        url('Faktum-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-SemiBoldItalic.woff2') format('woff2'),
+        url('Faktum-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-ExtraLight.woff2') format('woff2'),
+        url('Faktum-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-BoldItalic.woff2') format('woff2'),
+        url('Faktum-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-Regular.woff2') format('woff2'),
+        url('Faktum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-ExtraBoldItalic.woff2') format('woff2'),
+        url('Faktum-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-ExtraLightItalic.woff2') format('woff2'),
+        url('Faktum-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-Thin.woff2') format('woff2'),
+        url('Faktum-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-Bold.woff2') format('woff2'),
+        url('Faktum-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Faktum';
+    src: url('Faktum-RegularItalic.woff2') format('woff2'),
+        url('Faktum-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
