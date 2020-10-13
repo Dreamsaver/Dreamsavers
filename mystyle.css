@@ -436,6 +436,7 @@ footer {
     }
     .rules h2{
         margin-top: 0.4em;
+        letter-spacing: 0.05em;
     }
     .p1 .btn, .btn2 {
         word-spacing: 0em;
