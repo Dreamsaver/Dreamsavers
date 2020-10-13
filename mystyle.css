@@ -434,12 +434,13 @@ footer {
         flex-flow: column wrap;
         gap: 0;
     }
+    
     .rules h2{
         margin-top: 0.4em;
         letter-spacing: 0.05em;
     }
     
-        .rules h2{
+    .rules ul {
         letter-spacing: 0.05em;
     }
     
