@@ -1,4 +1,4 @@
-* {
+*, ul {
     margin: 0;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -6,6 +6,7 @@
     background: rgb(0, 0, 0);
     font-kerning: normal;
     text-rendering: optimizeLegibility;
+    padding: 0;
 }
 
 a{
@@ -340,7 +341,7 @@ p+p {
    
     color: white;
     border-top: 1px white solid;
-    margin-top: 1em;
+    margin-top: 0.4em;
     font-size: 10vw;
     font-weight: normal;
     gap: 1em;
@@ -383,6 +384,56 @@ footer {
     color: wheat;
 }
 
+.tutorial{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    color: white;
+    gap: 1em;
+    border-top: 1px solid white;
+}
+.tutorial a {
+    text-emphasis: none;
+    text-decoration: underline;
+    color: white;
+}
+.tutorial ul{
+    list-style-type: decimal-leading-zero;
+    margin-left: 1em;
+    margin-top: 2em;
+
+}
+.anchor{
+    display: flex;
+    font-size: 1em;
+    text-transform: none;
+
+    font-family: "faktum";
+}
+.anchor p{
+    
+    font-size: 1.3em;
+    font-family: "faktum_M";
+    text-transform: uppercase;
+    padding-bottom: 0.5em;
+
+}
+.spotify{
+    display: flex;
+    font-size: 1em;
+    flex-flow: column wrap;
+    font-family: "faktum";
+    text-transform: none;
+
+}
+.spotify p{
+    font-size: 1.3em;
+    font-family: "faktum_M";
+    text-transform: uppercase;
+    padding-bottom: 0.5em;
+
+
+}
 @media only screen and (max-width: 800px) {
 
     .logo {
@@ -433,10 +484,12 @@ footer {
     .rules{
         flex-flow: column wrap;
         gap: 0;
+        margin-top: 1em;
     }
     
     .rules h2{
-        margin-top: 0.4em;
+        letter-spacing: 0.05em;
+
     }
     
     .rules ul {
@@ -466,5 +519,10 @@ footer {
     }
     .sub_menu{
         line-height: 2.4em;
+    }
+
+    .tutorial{
+        flex-flow: column wrap;
+
     }
 }
