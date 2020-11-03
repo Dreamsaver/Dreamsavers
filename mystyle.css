@@ -300,7 +300,10 @@ main h1 {
     width: 75%;
     flex: 2;
 }
-
+.p1 a{
+    color: white;
+    list-style: none;
+}
 .p2 {
     border-top: 1.4px solid rgb(255, 255, 255);
     width: 50%;
